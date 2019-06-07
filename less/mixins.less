@@ -1,1 +1,23 @@
 // Mixins Here
+
+.flex-even {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+
+.button-fix(@padding, @f-size) {
+  width: 30%;
+  padding: @padding;
+  background: @btn-bg-color;
+  color: @porcelain;
+  font-size: @f-size;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+
+}
